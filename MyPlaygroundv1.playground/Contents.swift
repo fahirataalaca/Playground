@@ -22,9 +22,6 @@ if tg < 50 && tg > 0 {
 }
 
 
-
-
-
 for i in 0...9{
     print("Ata")
     
