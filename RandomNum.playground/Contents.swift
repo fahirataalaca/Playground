@@ -1,3 +1,8 @@
-import UIKit
+func rastgeleSayi() -> Int {
+    let sayi =  Int.random(in: 1...100)
+    return sayi
+}
 
-var greeting = "Hello, playground"
+let sayi = rastgeleSayi()
+
+print("Rastgele seçilen sayı: \(sayi)")
