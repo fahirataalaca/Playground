@@ -1,3 +1,8 @@
-import UIKit
+func kitapsayfa() ->(isim: String, sayfa: Int){
+    return(isim: "Swift Book", sayfa: 350)
+    
+}
 
-var greeting = "Hello, playground"
+let kitap = kitapsayfa()
+print("Kitap adı: \(kitap.isim), sayfa sayııs: \(kitap.sayfa)")
+
